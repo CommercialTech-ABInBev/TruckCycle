@@ -1,8 +1,14 @@
+import React from 'react';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import OnboardingPage from './components/pages/OnboardingPage/OnboardingPage';
+
 function App() {
   return (
-    <div >
-    <h1>hello</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<OnboardingPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
