@@ -4,6 +4,8 @@ import SplashImage from '../../molecules/SplashImage/SplashImage';
 import OnboardingPageTemplateStyle from './OnboardingPageTemplateStyle';
 import Image from '../../atoms/Image/Image';
 import Arrow from '../../../assets/icons/arrow-left.svg';
+import { Link } from 'react-router-dom';
+
 const OnboardingPageTemplate = () => {
   const loginText = () => {
     return (
@@ -16,8 +18,12 @@ const OnboardingPageTemplate = () => {
   return (
     <OnboardingPageTemplateStyle>
       <SplashImage />
-      <Button value="Sign Up" className={`signUp`} />
-      <Button value={loginText()} className={`logIn`} />
+      <Link to="/signup">
+        <Button value="Sign Up" className={`signUp`} />
+      </Link>
+      <Link to="/login">
+        <Button value={loginText()} className={`logIn`} />
+      </Link>
     </OnboardingPageTemplateStyle>
   );
 };

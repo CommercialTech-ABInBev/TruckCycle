@@ -8,6 +8,11 @@ const OnboardingPageTemplateStyle = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
   .signUp{
     width: 80%;
