@@ -3,7 +3,8 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import OnboardingPage from './components/pages/OnboardingPage/OnboardingPage';
 import LoginPage from './components/pages/LoginPage/LoginPage';
 import SignupPage from './components/pages/SignupPage/SignupPage'
-
+import UnstrapperPage from './components/pages/UnstrapperPage/UnstrapperPage'
+import TimerPage from './components/pages/TimerPage/TimerPage';
 function App() {
   return (
     <BrowserRouter>
