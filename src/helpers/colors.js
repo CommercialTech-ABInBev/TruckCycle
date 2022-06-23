@@ -7,7 +7,8 @@ const Colors = {
   activeBlue: '#0275D8',
   white: '#FFFFFF',
   grey: '#F9FAFB',
-  lightGrey: '#788190'
+  lightGrey: '#788190',
+  backgroundWhite: '#FAFAFF'
 
 };
 
